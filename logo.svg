@@ -1,0 +1,39 @@
+<svg width="320" height="120" viewBox="0 0 320 120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bth {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 900;
+      font-size: 54px;
+      fill: #111;
+      letter-spacing: 4px;
+    }
+    .stitch {
+      stroke: #c0392b;
+      stroke-width: 2.5;
+      fill: none;
+      stroke-linecap: round;
+    }
+  </style>
+
+  <!-- Baseball -->
+  <circle cx="60" cy="60" r="36" fill="#ffffff" stroke="#111" stroke-width="3"/>
+
+  <!-- Main curved seams -->
+  <path d="M46 30 C34 50, 34 70, 46 90" class="stitch"/>
+  <path d="M74 30 C86 50, 86 70, 74 90" class="stitch"/>
+
+  <!-- Cross stitches (left seam) -->
+  <line x1="42" y1="40" x2="50" y2="44" class="stitch"/>
+  <line x1="40" y1="50" x2="52" y2="54" class="stitch"/>
+  <line x1="40" y1="60" x2="52" y2="64" class="stitch"/>
+  <line x1="42" y1="70" x2="50" y2="74" class="stitch"/>
+
+  <!-- Cross stitches (right seam) -->
+  <line x1="70" y1="40" x2="78" y2="44" class="stitch"/>
+  <line x1="68" y1="50" x2="80" y2="54" class="stitch"/>
+  <line x1="68" y1="60" x2="80" y2="64" class="stitch"/>
+  <line x1="70" y1="70" x2="78" y2="74" class="stitch"/>
+
+  <!-- Text -->
+  <text x="120" y="80" class="bth">BTH</text>
+</svg>
